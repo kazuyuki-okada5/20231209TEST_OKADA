@@ -1,8 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\AuthorController;
+use App\Http\Controllers\ContactController;
 
 
 
- Route::get('/', [AuthorController::class, 'index']);
+Route::get('/', [ContactController::class, 'contact']);
+Route::POST('/contacts/confirm', [ContactController::class, 'confirm']);
+Route::post('/contacts', [ContactController::class, 'store']);

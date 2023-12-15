@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', serif;
+    height: 60px;
+    background-color: #f6f1f1;
+    font-size: 25px;
+    border: 1px solid #000;
+    color: rgba(175, 115, 115, 0.687);
+}
+
+.contact-form__heading {
+    font-family: 'Arial', serif;
+    font-size: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: rgba(175, 115, 115, 0.687);
+}
+
+
+
+.form__group-title,
+.form__group-content {
+    display: inline-block;
+    vertical-align: top;
+    height: 45px;
+    margin-right: 200px;
+    /* 適宜マージンを調整 */
+    color: rgba(55, 26, 15, 0.902);
+}
+.form__label--required {
+    color: red;
+
+
+
+
+
+
+
+
+
+
+
