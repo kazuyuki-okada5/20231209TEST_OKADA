@@ -15,9 +15,22 @@
 # 　6.php artisan db:seed
 # 
 # 使用技術
-#　 1.PHP 8.2.12 (cli)
+#　 1.PHP  php:7.4.9-fpm
+#   build:./docker/php
+#   volumes:./src:/var/www/
 # 　2.Laravel Framework 8.83.27
 # 　3.MySQL 8.0.26
+#   ROOT_PASSWORD:root
+#   DATABASE:laravel_db
+#   USER:laravel_user
+#   PASSWORD:	laravel_pass
+# 4.nginx:1.21.1
+#   ports:80:80
+#   listen 80
+# 5.phpMyAdmin
+#   image:phpmyadmin/phpmyadmin
+#   depends_on:mysql
+#   ports:8080:80
 # 
 # URL
 # 1.環境開発: http://Localhost/
